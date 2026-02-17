@@ -1,2 +1,2 @@
-import sys;U=dict(x.split("!")for x in"cd!E s!5 g!% A!= m!- K!M mol!U rad! sr! Hz!3 N!%-2 Pa!%+2 J!%.2 W!%.1 C!=5 V!%.1; F!#*8> Ω!%.1: S!#*7> Wb!%.2; T!%2; H!%.2: °C!M lm!E lx!E* Bq!3 Gy!.2 Sv!.2 kat!U3".split())
-for a in sys.argv[1:]:a=a.replace("da","~");C=(b'^[XUROLIFCBA?>=:741.+(%"'['QRYZEPTGMkh~dcmμnpfazyrq'.find(a[0])]-64)*(B:=a not in U)-3*('g'in a);print(C>>1and f"10^{C}"or 10**C,' '.join("kg m s A cd K mol".split()[(o:=ord(c)-33)//8]+f"^{o%8-3}"*(o%8!=4)for c in U[a[B:]]))
+import sys;U=dict(zip(*[iter('cd!D!s!4!g!$!A!<!m!,!K!L!mol!T!rad!!sr!!Hz!2!N!$,1!Pa!$*1!J!$-1!W!$-0!C!<4!V!$-0:!F!")7=!Ω!$-09!S!")6=!Wb!$-1:!T!$1:!H!$-19!°C!L!lm!D!lx!D)!Bq!2!Gy!-1!Sv!-1!kat!T2'.split("!"))]*2))
+for a in sys.argv[1:]:a=a.replace("da","~");B=a not in U;C=(b'^[XUROLIFCBA?>=:741.+(%"'['QRYZEPTGMkh~dcmμnpfazyrq'.find(a[0])]-64)*B-3*('g'in a);print(C>>1and f"10^{C}"or 10**C,*("kg m s A cd K mol".split()[(o:=ord(c))//8-4]+f"^{o%8-3}"*(o%8!=4)for c in U[a[B:]]))
