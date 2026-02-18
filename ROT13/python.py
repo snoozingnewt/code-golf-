@@ -1,2 +1,2 @@
 import codecs as c
-for a in c.sys.argv[1:]:print(c.encode(a,'rot13'))
+*map(print,c.iterencode(c.sys.argv[1:],'rot13')),

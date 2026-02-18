@@ -1,2 +1,3 @@
-from decimal import*
-c=getcontext();c.prec=1001;print((1+c.sqrt(5))/2)
+q=a=10**1000
+exec('q=a*a//(q+a);'*2400)
+print(f'1.{q}')

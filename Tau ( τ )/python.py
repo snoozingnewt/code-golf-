@@ -1,3 +1,3 @@
-s=p=10**1006;k=0
-while p:k+=1;p=p*k//(k-~k);s+=p
-print('6.'+str(4*s)[1:-6])
+p=i=3340
+while i:p=4*10**1000+p*i//(i-~i);i-=1
+print('6.'+str(p)[1:])
