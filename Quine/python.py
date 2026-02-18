@@ -1,1 +1,1 @@
-s='s=%r;print(s%%s)';print(s%s)
+_='_=%r;input(_%%_)';input(_%_)
