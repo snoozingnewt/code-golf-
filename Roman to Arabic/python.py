@@ -1,2 +1,2 @@
 import sys
-for r in sys.argv[1:]:p=0;print(sum((v:=5**((q:='IVXLCDM'.find(c))%2)*10**(q//2))-2*v*(v<p)+(p:=v)*0for c in r[::-1]))
+for r in sys.argv[1:]:p=0;print(sum((v:=10**(-~q//2)>>q%2)-2*p*(p<(p:=v))for q in map('IVXLCDM'.find,r)))

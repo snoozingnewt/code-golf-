@@ -1,2 +1,2 @@
 a=lambda i:f"{i or'no more'} bottle{'s'[:i^1]} of beer on the wall";z=99
-while~z:c=a(z);print(f"{c.capitalize()}, {c[:-12]}.\n{z and'Take one down and pass it around'or'Go to the store and buy some more'}, {a(~-z%100)}.\n");z-=1
+while~z:print(f"{a(z).capitalize()}, {a(z)[:-12]}.\n{'GToa kteo  otnhee  dsotwonr ea nadn dp absusy  isto maer omuonrde'[z>0::2]}, {a(~-z%100)}.\n");z-=1

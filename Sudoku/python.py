@@ -1,5 +1,5 @@
 import sys;R=range;p=print
-b=[*map(list,sys.argv[1:])]
+*b,=map(list,sys.argv[1:])
 def s():
  for q in R(81):
   if(w:=b[q//9])[c:=q%9]>'9':

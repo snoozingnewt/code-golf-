@@ -1,2 +1,2 @@
 import sys
-for a in sys.argv[1:]:print(''.join(chr(9812+f)if~(f:="KQRBNPkqrbnp".find(c))else"\n"*(c<"0")or" "*int(c)for c in a.split()[0]+"/"))
+for a in sys.argv[1:]:print(''.join(chr(9812+"KQRBNPkqrbnp".find(c))*(c>"9")or" "*(ord(c)-48)or"\n"for c in a.split()[0]+"/"))

@@ -1,3 +1,2 @@
-s=[0]
-for d in range(9):s+=[10*x-~d for x in s]
-for n in sorted(s[2:]):pow(2,n,n)==2%n!=print(n)
+q=[0]
+for x in q:x>1!=pow(2,x,x)==2%x!=print(x);q+=[10*x-~d for d in range(x%10,9)]
