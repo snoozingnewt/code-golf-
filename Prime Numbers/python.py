@@ -1,2 +1,2 @@
-k=P=1
-while k<99:P%k>0==print(k);P*=k*k;k+=1
+k=1
+while k<99:k+=1;2**k%k==2%k!=print(k)
