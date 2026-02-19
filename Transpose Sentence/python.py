@@ -1,3 +1,2 @@
-import sys
-from itertools import*
-for a in sys.argv[1:]:print(*map(''.join,zip_longest(*a.split(),fillvalue='')))
+import sys,itertools as I
+for a in sys.argv[1:]:print(*map(''.join,I.zip_longest(*a.split(),fillvalue='')))

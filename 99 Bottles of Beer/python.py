@@ -1,2 +1,2 @@
-z,g,n,b=99,' of beer on the wall','no more',' bottle'
-while~z:s=b+'s'[:z^1];print(f'{z or'N'+n[1:]}{s+g}, {z or n}{s+g[:8]}.\n{z and'Take one down and pass it around'or'Go to the store and buy some more'}, {~-z%100or n}{b+'s'[:z^2]+g}.\n');z-=1
+a=lambda i:f"{i or'no more'} bottle{'s'[:i^1]} of beer on the wall";z=99
+while~z:c=a(z);print(f"{c.capitalize()}, {c[:-12]}.\n{z and'Take one down and pass it around'or'Go to the store and buy some more'}, {a(~-z%100)}.\n");z-=1
