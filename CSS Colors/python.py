@@ -1,5 +1,9 @@
 import sys
 n=0
-for c in b""")S*w(e0#A<!7Za)l5w_/0uD[L^c0RY,Iw0g8lcML;g.#A!oRQWHT>Hv,uu"!lfF5i,StKm@g,NmJdm-1hdK#auW_ml,XI!sbvgWv_yJ#jEW@c<VGn8+xU[:oZ2N)B9&9kXxSq'7OsMJ<],grB.[#@bIv..gTDN:lm$>e0v/=mu9EozgyY_h|vFrW7!8=6Ub_b*W).K`!%}c#io2C>bma0JC4VmQ@I-a`gS4S@4409^GF}de<xY#%6seFcg&;B2M-V9"Y4sHa(npZ1h"vsp[lrZpgdNH#xsiHpEd%1TxGRFPTpRn!lAHxkD069DV*uyH9u|AcOiA2w,?_TFM%QKSN`'5oO6oydy>kb=_m8AZi'Igz'D+0s05LW!*#oLq"@4+@W.z7]-C$j<buJ'gM1O`d[NQByBl09X'.'|l9'Y_Mw4sz!}f+NgZ_T;E(Q#jYl3sQn_)Dp7I7nP$XJ="X,"dIg]u-AzLuBW!q'dk$'MMoy3sn!jYwYt`!J+yFVgrN$e:5!'0wv`.Wxq(YmGn?{QgKp4jY4JHAq=:(?""":n=n*92+c-33-c//92
+for c in b"""34Z{zY"lk].',Wo"Yrp=s01Fd ~R$sI {t1JkcmE"R
+$M-o$20pJ|9QV1GEB$>RXLc`m3tFRxW.ueU41z v~Uy~>#SV2	Kd5Yr"`gNo5C5q ^m6>^@H7MrJf6
+|(ZEnqPqcN|*?|0{>P'A1+3OB"bof.2fPCA176M87Ao4q*o-.c7czY.!y*r<ARE	C1}?G1d-gm$s_Wcz4]O)^*m/=\\6;I
+S]	4\\IGiXlKVdbVt`qPibpF;P)C;i|mS+}RIXmTr9|z9u=Tm64vt\\19xahmW{O'|O,)j/3:*M'K(/|KkJ4[@4RXvdfYW21c-KaXRG^!Z>DB35D;RleEz$JYmYxG~V4]IZ)Qa9ZsYlRehe{W3WOs2eodL*0y
+]AR%OVNvU|$3sz[Hl""":n=n*126+c-1-(c>13)
 _,*v=sys.argv
 for x in v:print('#'+('%x'%n)[sorted(v).index(x)*6:][:6])

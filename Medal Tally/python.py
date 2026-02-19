@@ -1,7 +1,2 @@
 import sys
-for l in sys.argv[1:]:
- l=l.split();g=p=0;m=[0]*3
- for x in l:
-  if(p:=p+m[p]*(g!=x))>2:break
-  m[p]+=1;g=x
- print('1💎 '*(l.count(l[0])<2)+f'{m[0]}🥇'+f' {m[1]}🥈'*(m[1]>0)+f' {m[2]}🥉'*(m[2]>0))
+for s in sys.argv[1:]:l=s.split();a,b,c=map([*map(l.index,l)].count,range(3));print('1💎 '*(a<2)+f'{a}🥇'+f' {b}🥈'*(b>0)+f' {c}🥉'*(c>0))
